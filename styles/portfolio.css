@@ -20,20 +20,23 @@
     background-color: #FD6E0A;
 }
 
-/* main items */
 /* nav section */
 .hero-container {
     background-color: #FFF8F3;
+    background: url("../images/developer.png") , url(../images/header_bg.png)  #FFF8F3 ;
+    background-repeat: no-repeat;
+    background-position: top left , bottom right;
+    padding-top: 51px;
 }
 
 nav {
     display: flex;
-    width: 90%;
+    width: 71%;
     max-width: 1440px;
     margin: 0px auto;
     justify-content: space-between;
     align-items: center;
-    padding-top: 51px;
+ 
 }
 
 nav h2 {
@@ -59,4 +62,38 @@ nav ul li {
 .manue li a {
     text-decoration: none;
     color: #474747;
+}
+/* banner section */
+.banner-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 46px 38px 0px 230px;
+}
+.banner-contant{
+   max-width: 584px;
+}
+.banner-title{
+    color: #474747;
+    font-size: 45px;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+.banner-name {
+    color: #181818;
+    font-size: 85px;    
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.banner-description{
+    color: #757575;
+    font-size: 18px;
+    font-weight: normal;
+    margin-bottom: 30px;
+}
+.banner-image img{
+    max-width: 584px;
+    vertical-align: middle;
+    
+    
 }
