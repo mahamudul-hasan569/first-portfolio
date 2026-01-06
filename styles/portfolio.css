@@ -138,3 +138,30 @@ nav ul li {
     margin: 136px auto 0px;
     max-width: 827px;
 }
+/* card section */
+.card-box{
+    margin: 50px auto 130px;
+    max-width: 71%;
+    display: flex;
+    gap: 24px;
+}
+.card {
+    max-width: 267px;
+    padding: 30px;
+    box-shadow: 0px 6px 50px #00000038;
+    border-radius: 5px;
+}
+.card img {
+    max-width: 44px;
+}
+.card-title{
+    font-size: 20px;
+    font-weight: bold;
+    color: #474747;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.card-description{
+    font-size: 16px;
+    color: #757575;
+}
