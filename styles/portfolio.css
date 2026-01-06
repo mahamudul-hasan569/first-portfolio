@@ -24,6 +24,7 @@
     font-weight: bold;
     color: #181818;
     margin-bottom: 30px;
+    text-align: center;
 }
 .about-description{
     font-size: 18px;
@@ -164,4 +165,43 @@ nav ul li {
 .card-description{
     font-size: 16px;
     color: #757575;
+}
+/* resume section */
+.resume{
+    max-width: 71%;
+    margin: auto;
+}
+.mother-container{
+    display: flex;
+    gap: 24px;
+}
+.resume-heading{
+    margin-top: 113px;
+    margin-bottom: 30px;
+    font-size: 30px;
+    font-weight: bold;
+    color: #474747;
+}
+.resume-title{
+    font-size: 25px;
+    font-weight: bold;
+    color: #474747;
+    margin-bottom: 10px;
+}
+.where{
+    font-size: 20px;
+    font-weight:500;
+    color: #757575;
+    margin-bottom: 20px;
+}
+.resume-description{
+    font-size: 16px;
+    color: #757575;
+    margin-bottom: 30px;
+    
+}
+.btn-wrapper{
+text-align: center;
+margin-top: 50px;
+margin-bottom: 113px;
 }
