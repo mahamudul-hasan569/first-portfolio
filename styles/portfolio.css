@@ -26,6 +26,12 @@
     margin-bottom: 30px;
     text-align: center;
 }
+.about-title2{
+    font-size: 35px;
+    font-weight: bold;
+    color: #181818;
+    margin-bottom: 30px;
+}
 .about-description{
     font-size: 18px;
     font-weight: normal;
@@ -204,4 +210,40 @@ nav ul li {
 text-align: center;
 margin-top: 50px;
 margin-bottom: 113px;
+}
+/* footer section */
+footer{
+    background-color: #FFF8F3;
+}
+.footer-container{
+    max-width: 71%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 130px 0px;
+    gap: 117px;
+}
+.footer-info{
+    max-width: 562px;
+}
+.footer-description{
+    font-size: 16px;
+    color: #757575;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.icons a {
+    margin-right: 20px;
+}
+input , [type="email"]{
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+}
+textarea{
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    margin-bottom: 30px;
 }
